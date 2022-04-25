@@ -1,0 +1,13 @@
+yumenomatayume.home {
+    log . "{proto} {remote} is Request: {name} {type} {>id}"
+    reload
+    errors
+    file /etc/coredns/zones/yumenomatayume.home.zone yumenomatayume.home
+}
+
+. {
+    log . "{proto} {remote} is Request: {name} {type} {>id}"
+    auto
+    forward . /etc/resolv.conf
+}
+

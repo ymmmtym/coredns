@@ -1,0 +1,18 @@
+$ORIGIN yumenomatayume.home.
+$TTL    86400
+@   3600 IN SOA dns.yumenomatayume.net. yumenomatayume@yumenomatayume.net. (
+                2018070500 ; serial
+                7200       ; refresh in seconds (2 hours is 7200)
+                3600       ; retry (1 hour)
+                1209600    ; expire (2 weeks)
+                3600       ; minimum (1 hour)
+                )
+
+    3600 IN NS dns.yumenomatayume.net.
+
+esxi     IN A     192.168.0.2
+mac-mini IN A     192.168.0.3
+vyos     IN A     192.168.0.4
+vyos01   IN A     192.168.0.33
+vyos02   IN A     192.168.0.34
+cluster  IN A     192.168.0.128
