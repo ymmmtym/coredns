@@ -15,4 +15,14 @@ mac-mini IN A     192.168.0.3
 vyos     IN A     192.168.0.4
 vyos01   IN A     192.168.0.33
 vyos02   IN A     192.168.0.34
-cluster  IN A     192.168.0.128
+rke2-haproxy   IN A     192.168.100.4
+rke2-haproxy01   IN A     192.168.100.5
+rke2-haproxy02   IN A     192.168.100.6
+rke2-server   IN A     192.168.100.4
+rke2-server01   IN A     192.168.100.7
+rke2-server02   IN A     192.168.100.8
+rke2-server03   IN A     192.168.100.9
+rke2-agent01   IN A     192.168.100.10
+rke2-agent02   IN A     192.168.100.11
+rke2-agent03   IN A     192.168.100.12
+cluster  IN A     192.168.100.128
